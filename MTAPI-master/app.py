@@ -17,6 +17,7 @@ from functools import wraps, reduce
 import logging
 import os
 
+
 app = Flask(__name__)
 app.config.update(
     MAX_TRAINS=10,

@@ -4,6 +4,7 @@
   "description": "The back-end of your project will live in this directory.",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "mocha",
     "coverage": "nyc --reporter=html --reporter=text --reporter=lcov --reporter=clover mocha --timeout 10000 --exit",
     "coveralls": "nyc report --reporter=text-lcov | coveralls"

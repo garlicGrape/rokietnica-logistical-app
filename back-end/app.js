@@ -91,6 +91,7 @@ app.post("/signup", function (req, res) {
 // ===================== LOGIN ROUTE ======================
 app.post("/login", function (req, res) {
   const tUsername = req.body.username;
+  console.log("endpoint");
   const tPassword = req.body.password;
 
   if (!tUsername || !tPassword) {
